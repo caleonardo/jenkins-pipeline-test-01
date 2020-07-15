@@ -1,6 +1,7 @@
 # shellcheck disable=SC2155
 export DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
+# test to check if the pipeline triggers
 #printf "\n--------------------------------------\n"
 #echo "1 - WORKING IN THE LOCAL HOST"
 

@@ -16,7 +16,7 @@
 
 pipeline {
   agent {
-    label 'cicd-gce-agent'
+    label 'gce-agent'
   }
   environment {
     GOOGLE_APPLICATION_CREDENTIALS = "/home/katiew/my-key.json"
